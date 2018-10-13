@@ -12,10 +12,12 @@ namespace EPAM.Core.ReportHelper.Tests
 		public static void Init(TestContext context)
 		{
 			//Thread.Sleep(30 * 1000);
+#if DEBUG
 			while (!Debugger.IsAttached)
 			{
 				Thread.Sleep(1000); ;
 			}
+#endif
 		}
 
 		[TestMethod]
