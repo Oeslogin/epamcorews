@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.CoreWorkshop.ReportHel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.CoreWorkshop.ReportHelper.Tests", "EPAM.CoreWorkshop.ReportHelper.Tests\EPAM.CoreWorkshop.ReportHelper.Tests.csproj", "{5A5DB010-4F31-4607-8C7D-1908590D0B04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.CoreWorkshop.TestConsoleApp", "EPAM.CoreWorkshop.TestConsoleApp\EPAM.CoreWorkshop.TestConsoleApp.csproj", "{CFFA9667-2E77-418D-A92F-22A1274D6011}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{5A5DB010-4F31-4607-8C7D-1908590D0B04}.Release|x64.Build.0 = Release|Any CPU
 		{5A5DB010-4F31-4607-8C7D-1908590D0B04}.Release|x86.ActiveCfg = Release|Any CPU
 		{5A5DB010-4F31-4607-8C7D-1908590D0B04}.Release|x86.Build.0 = Release|Any CPU
+		{CFFA9667-2E77-418D-A92F-22A1274D6011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFA9667-2E77-418D-A92F-22A1274D6011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFA9667-2E77-418D-A92F-22A1274D6011}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CFFA9667-2E77-418D-A92F-22A1274D6011}.Debug|x64.Build.0 = Debug|Any CPU
+		{CFFA9667-2E77-418D-A92F-22A1274D6011}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CFFA9667-2E77-418D-A92F-22A1274D6011}.Debug|x86.Build.0 = Debug|Any CPU
+		{CFFA9667-2E77-418D-A92F-22A1274D6011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFA9667-2E77-418D-A92F-22A1274D6011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFA9667-2E77-418D-A92F-22A1274D6011}.Release|x64.ActiveCfg = Release|Any CPU
+		{CFFA9667-2E77-418D-A92F-22A1274D6011}.Release|x64.Build.0 = Release|Any CPU
+		{CFFA9667-2E77-418D-A92F-22A1274D6011}.Release|x86.ActiveCfg = Release|Any CPU
+		{CFFA9667-2E77-418D-A92F-22A1274D6011}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
