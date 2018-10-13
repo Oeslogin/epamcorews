@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Threading;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -11,6 +12,10 @@ namespace EPAM.Core.ReportHelper.Tests
 		public static void Init(TestContext context)
 		{
 			//Thread.Sleep(30 * 1000);
+			while (!Debugger.IsAttached)
+			{
+				Thread.Sleep(1000); ;
+			}
 		}
 
 		[TestMethod]
